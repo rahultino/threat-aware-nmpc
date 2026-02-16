@@ -1,0 +1,15 @@
+d_safe: 5.0
+sigma_d: 3.0
+T0: 1.5
+k: 0.5
+vmax: 30.0
+w_pos: 0.25
+w_ttc: 0.40
+w_vel: 0.20
+w_class: 0.15
+class_weights:
+  pedestrian: 1.0
+  cyclist: 0.8
+  vehicle: 0.6
+alpha: 0.35
+persist_frames: 2
